@@ -1,0 +1,6 @@
+py==1.10.0
+torch==1.7.0
+torchvision==0.8.0
+wandb==0.12.7
+numpy==1.19.2
+matplotlib==3.3.4

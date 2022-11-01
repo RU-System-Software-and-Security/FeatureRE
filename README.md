@@ -69,7 +69,7 @@ You are encouraged to cite the following paper if you use the repo for academic 
 
 ```
 @inproceedings{wang2022rethinking,
-  title={{Rethinking the Reverse-engineering of Trojan Triggers}},
+  title={Rethinking the Reverse-engineering of Trojan Triggers},
   author={Wang, Zhenting and Mei, Kai and Ding, Hailun and Zhai, Juan and Ma, Shiqing},
   booktitle={Advances in Neural Information Processing Systems},
   year={2022}

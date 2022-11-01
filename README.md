@@ -1,7 +1,9 @@
 # FeatureRE
 This repository is the source code for ["Rethinking the Reverse-engineering of Trojan Triggers"](https://arxiv.org/abs/2210.15127).
 
-![overview](./image/overview.png)
+<div align="center">
+<img src=./image/overview.png width=75% />
+</div>
 
 Existing reverse-engineering methods only consider the input space constraint. It conducts
 reverse-engineering via searching a static trigger pattern in the input space. These methods fail to

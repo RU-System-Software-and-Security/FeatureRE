@@ -1,5 +1,5 @@
 # FeatureRE
-This repository is the source code for ["Rethinking the Reverse-engineering of Trojan Triggers"](https://arxiv.org/abs/2210.15127).
+This repository is the source code for ["Rethinking the Reverse-engineering of Trojan Triggers" (NeurIPS 2022)](https://arxiv.org/abs/2210.15127).
 
 <div align="center">
 <img src=./image/overview.png width=75% />

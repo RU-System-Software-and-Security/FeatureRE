@@ -25,10 +25,10 @@ def main():
         opt.input_channel = 3
         opt.num_classes = 43
         opt.total_label = 43
-        mean = [0.5]
-        std = [0.5]
-        size = 32
-        channel = 1
+        mean = [0,0,0]
+        std = [1,1,1]
+        size = opt.input_height
+        channel = 3
         opt.t_mean = torch.FloatTensor(mean).view(channel,1,1).expand(channel, size, size).cuda()
         opt.t_std = torch.FloatTensor(std).view(channel,1,1).expand(channel, size, size).cuda()
     elif opt.dataset == "mnist":
@@ -37,10 +37,10 @@ def main():
         opt.input_channel = 1
         opt.num_classes = 10
         opt.total_label = 10
-        mean = [0,0,0]
-        std = [1,1,1]
-        size = opt.input_height
-        channel = 3
+        mean = [0.5]
+        std = [0.5]
+        size = 32
+        channel = 1
         opt.t_mean = torch.FloatTensor(mean).view(channel,1,1).expand(channel, size, size).cuda()
         opt.t_std = torch.FloatTensor(std).view(channel,1,1).expand(channel, size, size).cuda()
     else:
